@@ -3,12 +3,12 @@
 
 
 
-测试类型|测试阶段|测试规模|自动化难易度|自动化收益|负责人员
-----|----|----|----|----|----
-单元测试|早期(提测前)|小|低|高|开发
-接口测试|中期(联调或刚提测)|中小|中|中|开发或测试
-集成测试|中后期(提测后)|中|中|中|开发或测试
-UI测试|中后期(提测后)|大|高|低|测试
+|测试类型|测试阶段|测试规模|自动化难易度|自动化收益|负责人员|
+|----|----|----|----|----|----|
+|单元测试|早期(提测前)|小|低|高|开发|
+|接口测试|中期(联调或刚提测)|中小|中|中|开发或测试|
+|集成测试|中后期(提测后)|中|中|中|开发或测试|
+|UI测试|中后期(提测后)|大|高|低|测试|
 
 
 
@@ -373,7 +373,8 @@ unittest模块自带了很多断言
 |断言方法|断言描述|
 |:-----|:----|
 |assertEqual(arg1, arg2, msg=None)|验证arg1=arg2，不等则fail|
-|assertNotEqual(arg1, arg2, msg=None)|验证arg1 != arg2, 相等则fail|	|assertTrue(expr, msg=None)|验证expr是true，如果为false，则fail|
+|assertNotEqual(arg1, arg2, msg=None)|验证arg1 != arg2, 相等则fail|
+|assertTrue(expr, msg=None)|验证expr是true，如果为false，则fail|
 |assertFalse(expr,msg=None)|验证expr是false，如果为true，则fail|
 |assertIs(arg1, arg2, msg=None)|验证arg1、arg2是同一个对象，不是则fail|
 |assertIsNot(arg1, arg2, msg=None)|验证arg1、arg2不是同一个对象，是则fail|
